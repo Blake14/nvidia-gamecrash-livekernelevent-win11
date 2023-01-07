@@ -1,4 +1,40 @@
-## Client Build
+### Summary of Issue(s)
+
+##### A couple years ago my PC started crashing about 20-30 minutes into most graphics itense games. I started by Googling those errors and most suggested that I either needed to update my BIOS or graphics drivers. I've had two motherboards during the duration of this problem, so I assumed it was my graphics drivers for a while.
+
+##### I used NVIDIA GeForce Experience to maintain the latest drivers. I have also attempted to clean uninstall and reinstall those latest drivers manually. Nothing yielded any results. I ended up wiping my PC and upgrading to Windows 11. Then I started to see the LiveKernelEvent Windows Error and then I was pretty confident this was a hardware issue rather than a hardware issue.
+
+##### I then started troubleshooting possible hardware issues that would result in what I have been experiencing. I found that I was running a single PSU->GPU power cable when that is not good practice. That got me on the Power Consumption issue track and I found AfterBurner. I used that to cap my overall power consumption and you can find those details below. I noticed an improvement so I though either my GPU wasn't able to receive enough power to play at its peak or my PSU isn't able to supply enough power at its peak. That is when I upgraded my Cosair 850W Gold Tier to my current Corsair 1000W Plat Tier. This also did not fix my issue.. I guess this would narrow it down to the GPU not being able to recieve that amount of power needed to play, but this is when it was decided to reach out to the community for insight.
+
+---
+
+### Steps Taken
+
+#### Basic Steps
+
+- Replaced Motherboard
+- Replaced RAM
+- Replaced PSU
+- Wiped PC
+- Reinstalled Windows
+- Upgraded Windows from 10 to 11
+- Reinstalled NVIDIA Drivers x100
+- Restarted my PC x10000000
+- Added GPU power cable (now 2 power cables total)
+
+#### Limited Power Consumption
+
+- Installed MSI Afterburner to limit power consumption. I noticed that I could play games for longer, but consequently there was a major decrease in my FPS.
+
+**MSI AfterBurner Config**
+
+_Note: This snippet was not during a crash instance, but this was my config that resulted in a dip in FPS and ultimately still crashed._
+
+![MSI AfterBurner Config](./AfterBurnerConfig1.png)
+
+---
+
+### Client Build
 
 - **CPU**: Intel Core i7-8700 3.2 GHz 6-Core Processor
 - **CPU Cooling**: Corsair iCUE H115i RGB Pro XT 63 CFM Liquid CPU Cooler
@@ -182,3 +218,27 @@
 - **Report Status**: 2049
 - **Hashed bucket**:
 - **Cab Guid**: 0
+
+---
+
+### Game Crash Error(s)
+
+**Spider-Man Remastered**
+
+![Spider-Man Remastered via Steam](./SpiderManGameCrashError1.png)
+
+**Red Dead Redemption 2**
+
+![Red Dead Redemption 2 via Steam](./RedDeadGameCrashError1.png)
+
+#### Other Games:
+
+- Grounded
+- MS Flight Simulator
+- Elden Ring
+- God of War
+- Madden Football ('22-'23)
+- FIFA '23
+- Call of Duty MW2
+- COD Warzone 2.0
+- and more...
